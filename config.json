@@ -1,0 +1,8 @@
+{
+    "developemnt":{
+        "mongo_username":"ai_slu",
+        "mongo_password":"v_G_a2021_",
+        "mongo_uri":"cluster0.i1jb1.mongodb.net",
+        "mongo_db":"test"
+    }
+}
