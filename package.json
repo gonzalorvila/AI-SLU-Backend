@@ -1,0 +1,24 @@
+{
+  "name": "ai_slu_backend",
+  "version": "1.0.0",
+  "description": "AI @ SLU backend. Please note that this repository cannot be public as it has mongodb credentials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amnox/ai_slu_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amnox/ai_slu_backend/issues"
+  },
+  "homepage": "https://github.com/amnox/ai_slu_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "multer": "^1.4.2"
+  }
+}

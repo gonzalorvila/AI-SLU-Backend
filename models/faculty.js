@@ -23,10 +23,6 @@ const facultySchema = new mongoose.Schema({
     type: Number, //phone number type?
     required: false,
   },
-  pic: {
-    type: Image,
-    required: false,
-  },
 });
 
 module.exports = mongoose.model("Faculty", facultySchema);
