@@ -13,4 +13,4 @@ app.use("/publications", publicationsRouter);
 const facultyRouter = require("./routes/faculty");
 app.use("/faculty", facultyRouter);
 
-app.listen(3000, () => console.log("server started"));
+app.listen(4000, () => console.log("server started"));
