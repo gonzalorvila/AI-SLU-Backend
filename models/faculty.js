@@ -12,8 +12,8 @@ const facultySchema = new mongoose.Schema({
     required: true,
   },
   department: {
-    type: String,
-    required: false,
+    type: String, //type should be like enums (define types beforehand)??
+    required: true,
   },
   email: {
     type: String, //email type?
