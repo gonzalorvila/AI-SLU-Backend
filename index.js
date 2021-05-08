@@ -3,10 +3,10 @@ var bodyParser = require("body-parser");
 var multer = require("multer");
 var upload = multer();
 var database = require("./db");
-
+var cors = require('cors');
 var app = express();
 app.use(express.json());
-
+app.use(cors())
 const publicationsRouter = require("./routes/publications");
 app.use("/publications", publicationsRouter);
 
