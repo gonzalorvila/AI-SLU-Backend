@@ -20,7 +20,7 @@ const facultySchema = new mongoose.Schema({
     required: false,
   },
   number: {
-    type: Number, //phone number type?
+    type: String, //phone number type?
     required: false,
   },
 });
