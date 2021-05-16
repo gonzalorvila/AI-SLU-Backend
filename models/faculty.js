@@ -12,15 +12,15 @@ const facultySchema = new mongoose.Schema({
     required: true,
   },
   department: {
-    type: String, //type should be like enums (define types beforehand)??
+    type: String,
     required: true,
   },
   email: {
-    type: String, //email type?
+    type: String,
     required: false,
   },
   number: {
-    type: String, //phone number type?
+    type: String,
     required: false,
   },
 });
